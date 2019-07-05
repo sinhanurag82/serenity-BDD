@@ -24,7 +24,7 @@ public class SearchByKeywordStory {
 
     Actor anna = Actor.named("Anna");
 
-    @Managed(uniqueSession = true)
+    @Managed(uniqueSession = true, driver = "chrome")
     public WebDriver herBrowser;
 
     @Steps
